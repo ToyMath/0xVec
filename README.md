@@ -7,6 +7,21 @@ In-memory vector database implemented in C++ with Python bindings using `pybind1
 
 The database is designed to be numerically stable by using double-precision floating-point numbers (`double`) for all computations. The Python bindings allow you to use the database seamlessly within Python applications, leveraging the performance of C++.
 
+## Benchmark
+
+```
+For 1000 vectors, OxVec is 137.64 times faster than Pure Python
+For 2000 vectors, OxVec is 167.61 times faster than Pure Python
+For 3000 vectors, OxVec is 139.40 times faster than Pure Python
+For 4000 vectors, OxVec is 136.29 times faster than Pure Python
+For 5000 vectors, OxVec is 136.93 times faster than Pure Python
+For 6000 vectors, OxVec is 153.92 times faster than Pure Python
+For 7000 vectors, OxVec is 155.10 times faster than Pure Python
+For 8000 vectors, OxVec is 135.87 times faster than Pure Python
+For 9000 vectors, OxVec is 137.07 times faster than Pure Python
+For 10000 vectors, OxVec is 151.53 times faster than Pure Python
+```
+
 ## Features
 
 - **In-Memory Storage**: Fast read/write operations suitable for real-time applications.
