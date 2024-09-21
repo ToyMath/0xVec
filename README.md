@@ -261,7 +261,7 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 ### Common Issues
 
-- **Module Not Found**: Ensure that the `vector_db` module is built and located in the same directory as your script.
+- **Module Not Found**: Ensure that the `oxvec` module is built and located in the same directory as your script.
 - **Compilation Errors**: Verify that all prerequisites are installed and that your compiler supports C++11 or higher.
 - **Python Version Compatibility**: Make sure you're using a compatible Python version (3.6 or higher).
 
