@@ -9,6 +9,9 @@ The database is designed to be numerically stable by using double-precision floa
 
 ## Benchmark
 
+### 145 time faster query than Pure Python
+![0xVec](https://github.com/user-attachments/assets/8fc6a340-bb55-4515-8876-77f623523a3d)
+
 ```
 For 1000 vectors, OxVec is 137.64 times faster than Pure Python
 For 2000 vectors, OxVec is 167.61 times faster than Pure Python
