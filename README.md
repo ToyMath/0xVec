@@ -50,8 +50,8 @@ For 10000 vectors, OxVec is 151.53 times faster than Pure Python
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ToyMath/Vec.git
-cd Vec
+git clone https://github.com/ToyMath/0xVec.git
+cd 0xVec
 ```
 
 ### 2. Install Python Dependencies
