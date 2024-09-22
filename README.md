@@ -1,4 +1,4 @@
-# 0xVec
+# OxVec
 In-memory vector database implemented in C++ with Python bindings using `pybind11`. It supports basic CRUD operations on vectors and collections, as well as similarity queries using different metrics:
 
 - **Euclidean Distance**
@@ -10,7 +10,7 @@ The database is designed to be numerically stable by using double-precision floa
 ## Benchmark
 
 ### 145 time faster query than Pure Python
-![0xVec](https://github.com/user-attachments/assets/8fc6a340-bb55-4515-8876-77f623523a3d)
+![OxVec](https://github.com/user-attachments/assets/8fc6a340-bb55-4515-8876-77f623523a3d)
 
 ```
 For 1000 vectors, OxVec is 137.64 times faster than Pure Python
@@ -50,8 +50,8 @@ For 10000 vectors, OxVec is 151.53 times faster than Pure Python
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ToyMath/0xVec.git
-cd 0xVec
+git clone https://github.com/ToyMath/OxVec.git
+cd OxVec
 ```
 
 ### 2. Install Python Dependencies
@@ -233,7 +233,7 @@ All tests passed successfully.
 ## Project Structure
 
 ```
-0xVec/
+OxVec/
 ├── oxvec.hpp
 ├── oxvec.cpp
 ├── bindings.cpp
