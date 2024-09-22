@@ -1,5 +1,5 @@
 # OxVec
-In-memory vector database implemented in C++ with Python bindings using `pybind11`. It supports basic CRUD operations on vectors and collections, as well as similarity queries using different metrics:
+🔥 Ultra-Fast in-memory vector database implemented in C++ with Python bindings using `pybind11`. It supports basic CRUD operations on vectors and collections, as well as similarity queries using different metrics:
 
 - **Euclidean Distance**
 - **Cosine Similarity**
